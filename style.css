@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:#2c2727;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+.nav-list{
+    list-style: none;
+}
+.list {
+    display: flex;
+    gap: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    
+}
+.logo{
+    width:20%;
+}
+.contactbtn{
+    margin-left: auto;
+    background-color:olive;
+    padding: 18px 10px;
+    border-radius: 50px;
+    text-decoration:none;
+    color: rgb(237, 237, 237);
+    font-weight: bold;
+    cursor: pointer;
+} 
+.title {
+    width: 100%;              
+    text-align: center;       
+    
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Unbounded", sans-serif;
+    margin-bottom: 80px; 
+    background-color: rgb(240, 238, 238);
+         
+}
+
+
+#Aboutus {
+    padding: 2px ;   
+    text-align-last: auto;
+    margin-bottom: 80px;
+
+}
+#Aboutus{
+       background-color: rgb(240, 238, 238);
+       cp
+
+}
+
+.left h2 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+   
+}
+.left p {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 14px;
+    color: #333;
+}
+
+#client{
+    background-color: black;
+    padding: 200px 10px;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-size: bold;
+
+}
+.left {
+    width: 35%;
+    padding: 0;
+    max-width: 500px;
+    margin-left: 220px;
+}
+#client p {
+    color: white;
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;;
+}
+.right{
+    padding-left: 50px 20px 50px ;
+    display: flex;
+    justify-content: flex-end;
+}
+.pic{
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+.pic h2{
+    size: 100px;
+    padding: 20px ;
+}
+#dropus{
+     background-color: rgb(228, 220, 220);
+     padding: 50px 200px  100px 30px;
+     font-family: Unbounded, sans-serif;
+     font-weight: 700;
+     font-size: 45px
+}
+
+.left{
+    font-family: Unbounded, sans-serif;
+     width: 50%;
+}
+.row {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+    color: black;
+    font-family:Unbounded, sans-serif ;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    background: transparent;
+    padding: 10px 0;
+    font-size: 16px;
+    outline: none;
+    color: black;
+    margin: 0%;
+}
+button {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.right img {
+    width: 100%;
+    margin-top: 50px;
+}
+.right {
+    width: 100%;
+}
+#contact {
+    background: linear-gradient(to right, #1c1c1c, #3a3a3a);
+    color: white;
+    padding: 80px 100px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.contact-left,
+.contact-middle {
+    width: 40%;
+}
+#contact h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+#contact p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.copyright {
+    margin-top: 50px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
