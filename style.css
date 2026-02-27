@@ -7,6 +7,13 @@
     background-color:#2c2727;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 250px;
+    padding: 15px;
+}
+.contactbtn{
+    width: 12%;
+    margin-right: 50px;
 }
 .nav-list{
     list-style: none;
@@ -29,16 +36,7 @@
 .logo{
     width:20%;
 }
-.contactbtn{
-    margin-left: auto;
-    background-color:olive;
-    padding: 18px 10px;
-    border-radius: 50px;
-    text-decoration:none;
-    color: rgb(237, 237, 237);
-    font-weight: bold;
-    cursor: pointer;
-} 
+
 .title {
     width: 100%;              
     text-align: center;       
@@ -53,11 +51,16 @@
 
 
 #Aboutus {
-    padding: 2px ;   
+    
     text-align-last: auto;
     margin-bottom: 80px;
     background-color: rgb(240, 238, 238);
-
+    margin: 0%;
+    padding-bottom: 10%;
+    color: black;
+}
+#Aboutus h2{
+    color: black;
 }
 .img{
     justify-content: center;
@@ -150,14 +153,19 @@ footer{
     font-size: 14px;
     line-height: 1.6;
     display: flex;
+    gap: 10%;
 }
 .branch{
     display: flex;
-    gap: 250px;
+    gap: 50px;
+    padding-right: 5%;
+    font-family:" Outfit", Sans-serif;
+    line-height: 1.5em;
+    letter-spacing: -0.8px;
+    font-size: 14px;
 }
 #contactus{
       display: flex;
-      gap: 100px;
       justify-content: space-between;
 }
 #contactus.bottom{
@@ -173,4 +181,10 @@ footer{
 }
 .mright h3{
 font-size: 20px; 
+}
+.mleft{
+    padding-left: 10%;
+}
+.mright{
+    padding-right:20%;
 }
