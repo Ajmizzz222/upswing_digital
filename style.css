@@ -188,3 +188,15 @@ font-size: 20px;
 .mright{
     padding-right:20%;
 }
+.portfolio{
+    background-color: rgb(240, 238, 238);
+    font-family: "Unbounded", sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;  
+}
+#portfolio1{
+    background-color: rgb(240, 238, 238)
+}
+
+
