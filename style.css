@@ -188,15 +188,37 @@ font-size: 20px;
 .mright{
     padding-right:20%;
 }
-.portfolio{
-    background-color: rgb(240, 238, 238);
+a{
+    text-decoration: none;
+    color: white;
+}
+.portfolio h1{
     font-family: "Unbounded", sans-serif;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;  
+    font-size: 100px;
+    text-align: center;
+    margin: 20px;
+   
 }
 #portfolio1{
-    background-color: rgb(240, 238, 238)
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    row-gap: 20px;
+    position: relative;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
 }
-
-
+.card{
+    width: 350px;
+    height: 350px;
+    border-radius:10px ;
+   
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-cont{
+    position: absolute;
+    bottom: 10px;
+}
