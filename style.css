@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 250px;
     padding: 15px;
 }
 .contactbtn{
@@ -64,7 +63,10 @@
 }
 .img{
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
+}
+.right img{
+    width: 100%;
 }
 .left h2 {
     font-family: "Unbounded", sans-serif;
@@ -206,7 +208,7 @@ a{
     position: relative;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 250px;
 }
 .card{
     width: 350px;
@@ -220,5 +222,26 @@ a{
 }
 .card-cont{
     position: absolute;
-    bottom: 10px;
+    top: 10PX;
+}
+.mobile-menu{
+    display: none;
+}
+.mobile-menu span{
+    background-color: white;
+    height: 2px;
+    width: 24px;
+    display: block;
+    margin-bottom:  2px;
+}
+@media(max-width:705px){
+    #nav{
+        display: none;
+    }
+    .contactbtn{
+        display: none;
+    }
+    .mobile-menu{
+        display:block ;
+    }
 }

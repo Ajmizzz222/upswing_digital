@@ -1,0 +1,21 @@
+.mobile-menu{
+    display: none;
+}
+.mobile-menu span{
+    background-color: white;
+    height: 2px;
+    width: 24px;
+    display: block;
+    margin-bottom:  2px;
+}
+@media(max-width:705px){
+    #nav{
+        display: none;
+    }
+    .contactbtn{
+        display: none;
+    }
+    .mobile-menu{
+        display:block ;
+    }
+}
